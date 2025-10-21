@@ -15,6 +15,12 @@ class SatisfactionItem(BaseModel):
 
 with open("rfmodel.pkl", 'rb') as f:
     model = pickle.load(f)
+    
+"""
+we need to find a new model/train a employee churn model (can be simple) 
+    - just for deployment, agent and tool purposes
+
+"""
 
 # POST - to enter/send new information(data) to API 
 # new data is sent via the SatisfactionItem (Data) model 
