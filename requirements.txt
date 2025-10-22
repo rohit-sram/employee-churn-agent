@@ -10,3 +10,5 @@ seaborn
 joblib
 scipy
 typing_extensions
+'mcp[cli]'
+requests

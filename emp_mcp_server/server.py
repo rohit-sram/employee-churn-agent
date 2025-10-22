@@ -6,7 +6,7 @@ from typing import List
 mcp = FastMCP("EmployeeChurn")
 
 # Create MCP Tool
-@mcp.tool
+@mcp.tool()
 def predict_churn(data: List[dict]) -> str:
     """This tool predicts whether an employee will churn or not, pass through the input as a list of samples.
     Args:
